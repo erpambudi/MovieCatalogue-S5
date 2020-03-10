@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog Film</string>
+    <string name="name_film">Nama Film</string>
+    <string name="title_home">Film</string>
+    <string name="title_dashboard">Seri TV</string>
+    <string name="title_notifications">Favorit</string>
+    <string name="lorem">lorem ipsum dolor sit amet</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="image_film">image film</string>
+    <string name="image_item_film">image item film</string>
+    <string name="overview_nothing">"Deskripsi tidak tersedia dalam bahasa ini."</string>
+    <string name="rating">Peringkat</string>
+    <string name="icon_rating">icon rating</string>
+    <string name="tab_text1">Film</string>
+    <string name="language">id-US</string>
+    <string name="tab_text2">Seri TV</string>
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="title_overview">Deskripsi</string>
+    <string name="detail">Detail</string>
+    <string name="add_favorite">Di Tambahkan ke Favorit</string>
+    <string name="remove_favorite">Di Hapus Favorit</string>
+    <string name="appwidget_text">Favorit</string>
+    <string name="no_data_widget">Tidak ada Favorit</string>
+    <string name="search_result">Hasil Pencarian</string>
+    <string name="change_reminder">Pengaturan Notifikasi</string>
+    <string name="search">Pencarian</string>
+    <string name="search_hint">Pencarian</string>
+    <string name="daily_notification">Pemberitahuan Harian</string>
+    <string name="new_movie_notifications">Pemberitahuan Film Baru</string>
+    <string name="notifications">Notifikasi</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="release_reminder_message">Sudah Rilis!</string>
+    <string name="daily_message_reminder">Ada banyak film menunggumu!</string>
+    <string name="delete">Hapus</string>
+
+</resources>

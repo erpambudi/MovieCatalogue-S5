@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="20dp"
+    android:background="@color/colorAzur"
+    android:id="@+id/cv_item_film">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_photo"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/image_item_film" />
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@id/img_photo"
+            android:text="@string/name_film"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ic_star"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/ic_star_yellow"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@id/img_photo"
+            android:layout_below="@id/txt_name"
+            android:contentDescription="@string/rating"/>
+
+        <TextView
+            android:id="@+id/tv_vote_average"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_name"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/ic_star"
+            android:ellipsize="end"
+            android:text="@string/lorem" />
+
+        <TextView
+            android:id="@+id/txt_overview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_vote_average"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@id/img_photo"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:text="@string/lorem" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

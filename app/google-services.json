@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "635036443270",
+    "firebase_url": "https://moviecatalogue-d8ded.firebaseio.com",
+    "project_id": "moviecatalogue-d8ded",
+    "storage_bucket": "moviecatalogue-d8ded.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635036443270:android:0670bcd153f9fb11996707",
+        "android_client_info": {
+          "package_name": "com.erpambudi.moviecatalogue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635036443270-mn65sfbtt49255t2n3667vq377o47boj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBflBVtD7budrVfxoCLMajAI7aNXHiZC_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635036443270-mn65sfbtt49255t2n3667vq377o47boj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="title_home">Movies</string>
+    <string name="title_dashboard">Tv Show</string>
+    <string name="title_notifications">Favorite</string>
+    <string name="name_film">Nama Film</string>
+    <string name="lorem">lorem ipsum dolor sit amet</string>
+    <string name="release_date">Release Date</string>
+    <string name="tab_text1">Movies</string>
+    <string name="language">en-US</string>
+    <string name="tab_text2">Tv Show</string>
+    <string name="title_overview">Overview</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="image_film">image film</string>
+    <string name="image_item_film">image item film</string>
+    <string name="overview_nothing">"Overview is not available in this language."</string>
+    <string name="rating">Rating</string>
+    <string name="icon_rating">icon rating</string>
+    <string name="detail">Detail</string>
+    <string name="add_favorite">Added to Favorites</string>
+    <string name="remove_favorite">Removed from Favorites</string>
+    <string name="appwidget_text">Favorite</string>
+    <string name="no_data_widget">No Favorites</string>
+    <string name="search_result">Search Result</string>
+    <string name="change_reminder">Change Reminder</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="daily_notification">Daily Notification</string>
+    <string name="new_movie_notifications">New Movie Notifications</string>
+    <string name="notifications">Notifications</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="release_reminder_message">has been released today!</string>
+    <string name="daily_message_reminder">There are lots of movies waiting for you!</string>
+    <string name="delete">Delete</string>
+
+</resources>
